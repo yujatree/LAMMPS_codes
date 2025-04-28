@@ -45,12 +45,12 @@ module property_ftns
    !                Main Link Program               !
    !              made by Park HyungShick           !
    !                modified by EunHyeok            !
-   !                modified by Jina    	    !
-   !				                    !
+   !                modified by Jina                !
+   !                                                !
    !               Ver.1 2020.06.26                 !
-   !               Ver.2 2022.01.03 		    !
-   !   		   Ver.3 2025.04.27                 !
-   !				                    !
+   !               Ver.2 2022.01.03                 !
+   !               Ver.3 2025.04.27                 !
+   !                                                !
    !------------------------------------------------!
 
    ! Refer to JENOGMIN KIM READ_DCD program

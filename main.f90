@@ -4,4 +4,6 @@ program main
 
    call dcd_reader()
 
+   call mean_squared_displacement() ! with Non-Gaussian Parameter
+
 end program

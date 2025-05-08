@@ -1,10 +1,13 @@
 # LAMMPS_codes
 
-<img width="1049" alt="Screenshot 2025-05-08 at 19 46 11" src="https://github.com/user-attachments/assets/41777965-534c-4804-ac63-05081f4aedc3" />
+<img width="1049" alt="PROGRAM" src="https://github.com/user-attachments/assets/a5705459-fa4e-4090-a603-6698c122ac1d" />
   
 🐸 GOAL : *One module, all properties.*
   
 **- Property List**  
+
+  + *This version is for 'built-in' ensemble average.*
++ *Processing of trajectory connections needs to be implemented...*
   
 ☑︎ dcd Reader  
 ☑︎ Mean Squared Displacement (MSD), $<r^2(t)>$  
@@ -14,3 +17,4 @@
 ☐ Self-part van Hove correlation function, $G_s(r,t)$  
 ☐ Distinct-part van Have correlation function, $G_d(r,t)$ (TBD)  
 ☐ Hop Function, $h_i(t)$  
+

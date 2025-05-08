@@ -27,10 +27,11 @@ program main
    print*, "   [4] Radial Distribution Function"
    print*, "   [5] Self-part van Hove Correlation Function"
    print*, "   [6] Distinct-part van Have Correlation Function"
-   print*, "   [7] EXIT"
+   print*, "   [7] Hop Function"
+   print*, "   [8] EXIT"
    print*
 
-   write(*,'(A)',advance='no') "    [Enter the index of the property] : "
+   write(*,'(A)',advance='no') "    [Enter the property index] : "
    read(*,*) input
    
    print*
@@ -59,6 +60,10 @@ program main
       goto 1
       !call distinct_part_van_hove_correlation_function()
    elseif (input==7) then
+      print*, "   Sorry, It's Updating... :( "
+      print*
+      goto 1
+   elseif (input==8) then
       print*, "   PROGRAM ENDS ..."
       print*
       stop
